@@ -1,0 +1,305 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Crimson+Pro&display=swap");
+#navegacion {
+  background: #085F97;
+  color: white;
+  font-family: caper "Courier New", Courier, monospace bold;
+  font-size: 14px;
+}
+
+.social:hover {
+  text-decoration: none;
+}
+
+#navegacion2 {
+  color: black;
+  width: 100%;
+  height: 50px;
+  border-top: 1px #dadada solid;
+  border-bottom: 1px #dadada solid;
+  font-family: Heron Sans;
+}
+
+#navegacion2 a {
+  color: black;
+}
+
+.nav-link, .navbar-brand {
+  color: white;
+}
+
+.nav-link:hover {
+  opacity: 0.5;
+  background: white;
+}
+
+.navbar:hover {
+  color: white;
+}
+
+#fecha {
+  color: white;
+  font-size: 12px;
+  padding-left: 5px;
+}
+
+header {
+  height: 99px;
+  width: 100%;
+  justify-content: center;
+}
+
+.articulo3 {
+  height: 130px;
+  display: flex;
+  position: relative;
+  bottom: 200px;
+  width: 700px;
+}
+
+.f_contenedor {
+  height: 850px;
+}
+
+.nairo {
+  height: 130px;
+  display: flex;
+  position: relative;
+  width: 700px;
+}
+
+.nairoman {
+  left: -50%;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.articulo {
+  height: 130px;
+}
+
+.img_banner {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 75%;
+  height: 100px;
+}
+
+.titulo_content {
+  height: 200px;
+  width: 100%;
+}
+
+.title {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: block;
+  width: 30%;
+  height: 80px;
+}
+
+/*
+Menu 2
+*/
+#menu {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#navbar li a:hover {
+  color: #085F97;
+}
+
+.section_title {
+  display: inline-flex;
+  width: 107%;
+  margin-top: 50px;
+  height: 40px;
+  margin-left: -50px;
+}
+
+.cuadro {
+  width: 15%;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 12px;
+}
+
+.cuadro p {
+  margin: auto;
+}
+
+.cuadro_link:hover {
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+#cuadro1 {
+  width: 100%;
+  height: 40px;
+  font-family: Heron Sans;
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+#cuadro, #cuadro1 {
+  height: 35px;
+}
+
+.h2 {
+  color: black;
+}
+
+.columna2 {
+  bottom: 190px;
+}
+
+.text_colunma {
+  width: 200px;
+}
+
+.textlegend_time {
+  font-size: 12px;
+  color: gray;
+}
+
+.cita_legenda {
+  font-size: 12px;
+  color: #085F97;
+}
+
+.primer_titulo:hover {
+  text-decoration: none;
+  color: black;
+  opacity: 0.6;
+}
+
+.img_col {
+  height: 265px;
+}
+
+.editorial {
+  color: #085F97;
+}
+
+.recuadro {
+  border: 5px solid #085F97;
+  width: 300px;
+  height: 250px;
+  margin-left: 40px;
+}
+
+.titulo_recuadro, .parrafo_recuadro {
+  color: rgba(0, 0, 0, 0.815);
+}
+
+.titulo_recuadro:hover {
+  text-decoration: none;
+  color: black;
+  opacity: 0.6;
+}
+
+.parrafo_recuadro {
+  font-size: 14px;
+}
+
+.parrafo_recuadro:hover {
+  text-decoration: none;
+  color: black;
+  opacity: 0.6;
+}
+
+.recuadrito {
+  background: url(/img/comma1.png) no-repeat 0px -10px;
+  background-size: 120px;
+}
+
+.p_link3, .titulo_col2 {
+  color: black;
+}
+
+.p_link3:hover {
+  text-decoration: none;
+  opacity: 0.6;
+  color: black;
+}
+
+.mig {
+  position: absolute;
+  left: -17px;
+  width: 270px;
+  height: 250px;
+  margin-top: 40px;
+}
+
+#text_columna2 {
+  height: 20px;
+  width: 500px;
+}
+
+.text_columna2 {
+  position: absolute;
+}
+
+.titulo_col2:hover {
+  text-decoration: none;
+  opacity: 0.6;
+  color: black;
+}
+
+/* Sección Video*/
+.caja_reponsive {
+  height: 330px;
+  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  display: inline-block;
+}
+
+.titulo_deportes {
+  float: left;
+  margin-left: 40px;
+}
+
+.bloque {
+  height: 100px;
+  width: 235px;
+  position: absolute;
+  top: 140px;
+  right: 0;
+  left: 9%;
+}
+
+.banner {
+  height: 205px;
+  width: 92%;
+  margin-top: 150px;
+}
+
+.banner img {
+  display: block;
+  margin: auto;
+}
+
+.banner_texto {
+  color: white;
+  position: relative;
+  margin-left: 150px;
+  top: 30px;
+}
+
+.boton_banner {
+  border-radius: 50px;
+  width: 150px;
+  height: 35px;
+  color: white;
+  font-size: 12px;
+  background: rgba(67, 170, 255, 0.877);
+  border: none;
+}
+
+/*# sourceMappingURL=styles.css.map */
